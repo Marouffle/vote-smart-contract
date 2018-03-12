@@ -1,0 +1,11 @@
+pragma solidity ^0.4.19;
+
+contract Preuve_Document{
+    
+    string hash_du_document;
+    
+    function Preuve_Document(string hash_du_texte) public
+    {
+        hash_du_document=hash_du_texte;
+    }
+}
